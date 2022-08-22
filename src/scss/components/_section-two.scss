@@ -1,0 +1,117 @@
+.section-two {
+    max-width: 1440px;
+    padding: 60px 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+    @media screen and (max-width: 768px){
+        padding: 20px 60px;
+    }
+
+    @media screen and (max-width: 767px){
+        padding: 20px;
+    }
+}
+
+.sections-one {
+    display: flex;
+    gap: 20px;
+    min-width: 648px;
+
+
+    @media screen and (max-width: 767px){
+        flex-direction: column;
+        height: 229px;
+        min-width: 211px;
+    }
+}
+
+.sections-one__content-1 {
+    background-image: url(../img/gridimg1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-width: 448px;
+    height: 230px;
+    border-radius: 10px;
+
+    @media screen and (max-width: 767px){
+        height: 142px;
+        min-width: 280px;
+        
+    }
+}
+
+.sections-one__content-2 {
+    width: 912px;
+    min-width: 180px;
+    height: 230px;
+    background-color: #FFD233;
+    border-radius: 10px;
+
+    @media screen and (max-width: 767px){
+        height: 67px;
+        min-width: 280px;
+        width: 100%;
+    }
+    
+}
+
+.sections-two {
+    display: flex;
+    gap: 20px;
+    min-width: 648px;
+
+    @media screen and (max-width: 768px){
+        height: 344px;
+    }
+
+    @media screen and (max-width: 767px){
+        flex-direction: column;
+        height: 355px;
+        min-width: 211px;
+    }
+
+}
+
+.sections-two__content-3 {
+    background-color: #25E197;
+    width: 630px;
+    min-width: 173px;
+    height: 552px;
+    border-radius: 10px;
+
+    @media screen and (max-width: 768px){
+        height: 344px;
+        width: 100%;
+    }
+
+    @media screen and (max-width: 767px){
+        height: 124px;
+        min-width: 280px;
+    }
+}
+
+.sections-two__content-4{
+    background-image: url(../img/gridimg2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 730px;
+    height: 552px;
+    min-width: 455px;
+    border-radius: 10px;
+
+    @media screen and (max-width: 768px){
+        height: 344px;
+        
+    }
+
+    @media screen and (max-width: 767px){
+        height: 211px;
+        min-width: 280px;
+        width: 100%;
+    }
+ 
+}

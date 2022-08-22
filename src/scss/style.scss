@@ -1,0 +1,19 @@
+@import "./vendor/normalize.css";
+@import "variables";
+@import "reset";
+@import "mixins";
+@import "components/header";
+@import "components/section-one";
+@import "components/section-two";
+@import "components/section-three";
+@import "components/section-four";
+@import "components/section-five";
+@import "components/section-six";
+@import "components/footer";
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.container {
+  @include container(1120px, 60px);
+
+}
